@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<!--Завдання 1. Створити html файл з формою для додавання викладача. Форма повинна містити наступні поля:
+Повне ім’я, стать, дата народження, email, телефон, бажаний колір фону, країна, місто, коментар.-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+
+</head>
+</head>
+<body>
+
+<h3>Task 1</h3>
+
+<form>
+    <header>
+        <h1>Форма для додавання викладача</h1>
+    </header>
+
+    <section>
+        <label for="firstname">Повне ім'я: </label>
+        <input type="text" id="firstname" name="firstname"></input>
+    </section>
+    </br>
+    <section>
+        <label for="gender">Стать:</label>
+        <select id="gender" name="gender" rows="1" cols="20" maxlength="20">
+            <option value="male">Чоловіча</option>
+            <option value="female" selected>Жіноча</option>
+
+        </select>
+    </section>
+    </br>
+    <section>
+        <label for="date">Дата народження: </label>
+        <input type="date" id="date" name="date">
+        </input>
+    </section>
+
+    </br>
+    <section>
+        <label for="email">Email:</label>
+        <input id="email" name="email" rows="1" cols="20" maxlength="20">
+    </section>
+    </input>
+    </br>
+    <section>
+        <label for="phone">Телефон:</label>
+        <input id="phone" name="phone" rows="1" cols="20" maxlength="20">
+        </input>x
+    </section>
+    </br>
+    <section>
+        <label for="color">Бажаний колір фону:</label>
+        <input id="color" name="color" rows="1" cols="20" maxlength="20" type="color">
+        </input>
+    </section>
+    </br>
+    <section>
+        <label for="country">Країна:</label>
+        <input id="country" name="country" rows="1" cols="20" maxlength="20">
+        </input>
+    </section>
+    </br>
+    <section>
+        <label for="city">Місто:</label>
+        <input id="city" name="city" rows="1" cols="20" maxlength="20">
+        </input>
+    </section>
+    </br>
+    <section>
+        <label>Коментар:</label>
+        </br>
+        <textarea id="comment" name="email" rows="5" cols="45" maxlength="400">
+</textarea>
+        <p>
+            <button type="submit">Відправити</button>
+        </p>
+    </section>
+
+</form>
+</body>
+</html>
